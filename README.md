@@ -1,4 +1,4 @@
-##Gold Risk Transmission & Market Regime Analysis
+# **Gold Risk Transmission & Market Regime Analysis**
 ### **Financial Data Engineering with Google BigQuery & Python**
 
 ## **Project Overview**
