@@ -1,4 +1,4 @@
-# 📈 Gold Risk Transmission & Market Regime Analysis
+#Gold Risk Transmission & Market Regime Analysis
 ### **Financial Data Engineering with Google BigQuery & Python**
 
 ## **Project Overview**
@@ -16,10 +16,10 @@ Instead of performing calculations in Python memory, I engineered a specialized 
 * **30-Day Rolling Volatility**: Generated using `STDDEV() OVER(...)` to track the "fear gauge" of Gold in real-time.
 * **Regime Categorization**: A `CASE` statement identifies states like **Equity Stress** (S&P 500 downturns) and **Hedge Behavior**.
 
-## **📊 Visualization & Insights**
+## **Visualization & Insights**
 The final analysis captures the "Risk Transmission" where Gold volatility spikes reactively to equity market stress events.
 
-![Gold vs SPX Analysis](gold_vs_spx_risk_analysis.png)
+![Risk Analysis Chart](risk_analysis_chart.png)
 
 ## **🛠️ How to Reproduce**
 1. **BigQuery Setup**: Run the provided SQL scripts in your GCP console to create the analysis views.
